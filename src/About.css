@@ -1,0 +1,40 @@
+
+
+.aboutt img{
+    width: 40%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.aboutt .image{
+    align-items: center;
+    width: 78%;
+    display: flex;
+}
+
+.aboutt form{ 
+  
+    text-align: center;
+}
+
+.aboutt h2{
+    font-family: cursive;
+}
+
+.aboutt p{
+    margin: 20px;
+    width: 72%;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 660px) {
+    .aboutt .image{
+            width: 96%;
+            display: grid;
+        }
+
+        .aboutt .image img{
+            width: 96%;
+        }
+}
